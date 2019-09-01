@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+    <link rel="icon" type="image/png" href="{% static '/images/inventory1.png' %}">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Inventory Management System</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ base.html }}"><i class="fas fa-home"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inventory management System</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        {% block body %} 
+
+
+
+        {% endblock %}
+
+    </div>
+</body>
+
+</html>
