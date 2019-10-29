@@ -5,5 +5,5 @@ It keeps the information of the devices such as Laptop, Desktop and Mobile Phone
 for e.g.-- Price of a particular device, Issue with particular device, and device is available or not for sale etc.
 
 Create a virtual environment by the name of 'ims' ...in case if you want to use 
-And fork it
+And fork it....
 If you find something need to be change...then please contribute
