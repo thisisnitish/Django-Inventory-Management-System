@@ -6,8 +6,11 @@ This is a simple Inventory management system Project made from django....<br>
 It keeps the information of the devices such as Laptop, Desktop and Mobile Phones<br>
 <br>
 <br>
-for e.g.-- Price of a particular device, Issue with particular device, and device is available or not for sale etc.<br>
+for e.g.-- Price of a particular device <br> Issue with particular device <br> and device is available or not for sale etc.<br>
 <br>
+<br>
+------------------------------------------------------------------------------------------------------------------------<br>
+------------------------------------------------------------------------------------------------------------------------<br>
 <br>
 Features:<br>
 <ul>
